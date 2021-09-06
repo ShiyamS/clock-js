@@ -36,5 +36,8 @@ function setDate() {
   hour.innerHTML = `${hours % 12}` + ":";
   minutes.innerHTML = `${mins}` + ":";
   second.innerHTML = `${seconds}`;
+
+  var full = now.getTime();
+  console.log(full);
 }
 setInterval(setDate, 1000);

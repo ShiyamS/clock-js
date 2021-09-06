@@ -63,3 +63,17 @@ li {
   font-size: 5rem;
   font-weight: bold;
 }
+
+@media (min-width: 600px) {
+  .clock {
+    width: 40rem;
+    height: 40rem;
+    border: 20px solid white;
+  }
+  .container > h1,
+  li {
+    color: #fff;
+    font-size: 10rem;
+    font-weight: bold;
+  }
+}
