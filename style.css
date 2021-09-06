@@ -19,6 +19,9 @@ ul {
   display: flex;
 }
 
+.time {
+  align-self: center;
+}
 .clock {
   width: 20rem;
   height: 20rem;
@@ -69,6 +72,10 @@ li {
     width: 40rem;
     height: 40rem;
     border: 20px solid white;
+    margin: 800px auto;
+  }
+  .container {
+    margin-top: 50rem;
   }
   .container > h1,
   li {
